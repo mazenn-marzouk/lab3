@@ -6,3 +6,8 @@ jobs:
     steps:
     - name: my-step
       run: echo "hallo"
+  another-job:
+    runs-on: ubuntu-latest
+    steps:
+    - name: another-step
+      run: echo "This is another job"
